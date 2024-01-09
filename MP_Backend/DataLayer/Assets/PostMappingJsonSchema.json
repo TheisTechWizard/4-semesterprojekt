@@ -1,0 +1,38 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "items": {
+    "$ref": "#/definitions/WelcomeElement"
+  },
+  "definitions": {
+    "WelcomeElement": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "origin": {
+          "type": "string"
+        },
+        "originExternalId": {
+          "type": "string"
+        },
+        "internalIdList": {
+          "type": "string"
+        },
+        "roomName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "internalIdList",
+        "origin",
+        "originExternalId",
+        "roomName"
+      ],
+      "title": "WelcomeElement"
+    }
+  }
+}

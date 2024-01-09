@@ -1,0 +1,69 @@
+.addmapping {
+  display: flex;
+  flex-grow: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: inherit;
+  height: 56px;
+  align-items: center;
+
+  background: #f2f2f2;
+  gap: 2rem;
+}
+
+.addmapping input {
+  display: flex;
+  text-align: center;
+  border-style: none;
+  justify-content: center;
+}
+
+.addmapping select {
+  display: flex;
+  border-style: none;
+  justify-content: center;
+}
+
+
+.addmapping-internalidlist,
+.addmapping-origin,
+.addmapping-originexternalid {
+  display: flex;
+  justify-content: center;
+  flex-grow: 5;
+  height: calc(100% - 20px);
+}
+
+
+.addmapping-internalidlist select,
+.addmapping-origin select,
+.addmapping-originexternalid input[type="text"] {
+  background-color: #6fb58b;
+  color: #3a3a3a;
+  font-size: 13px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center
+}
+
+.addmapping-internalidlist option,
+.addmapping-origin option {
+  background-color: #9ce0b7;
+  color: #212020;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.addmapping-originexternalid input::placeholder {
+  color: #4f4f4f;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.addmapping-internalidlist {
+  margin-left: 10px;
+}
+
+.addmapping-originexternalid {
+  margin-right: 10px;
+}

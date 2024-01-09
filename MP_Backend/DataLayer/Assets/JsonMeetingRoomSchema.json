@@ -1,0 +1,118 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "properties": {
+          "$ref": "#/definitions/Properties"
+        }
+      },
+      "required": [
+        "id",
+        "properties",
+        "type"
+      ],
+      "title": "Welcome"
+    },
+    "Properties": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {}
+        },
+        "floor": {
+          "type": "string",
+          "format": "integer"
+        },
+        "floorName": {
+          "type": "string",
+          "format": "integer"
+        },
+        "building": {
+          "type": "string"
+        },
+        "venue": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "locationType": {
+          "type": "string"
+        },
+        "mapElement": {
+          "type": "string"
+        },
+        //"anchor": {
+        //  "$ref": "#/definitions/Anchor"
+        //},
+        "status": {
+          "type": "integer"
+        },
+        "activeFrom": {
+          "type": "null"
+        },
+        "activeTo": {
+          "type": "null"
+        },
+        "roomId": {
+          "type": "string"
+        },
+        "bookable": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "activeFrom",
+        "activeTo",
+        "aliases",
+        "bookable",
+        "building",
+        "floor",
+        "floorName",
+        "locationType",
+        "mapElement",
+        "name",
+        "roomId",
+        "status",
+        "type",
+        "venue"
+      ],
+      "title": "Properties"
+    },
+    //"Anchor": {
+    //  "type": "object",
+    //  "additionalProperties": true,
+    //  "properties": {
+    //    "coordinates": {
+    //      "type": "array",
+    //      "items": {
+    //        "type": "number"
+    //      }
+    //    },
+    //    "type": {
+    //      "type": "string"
+    //    }
+    //  },
+    //  "required": [
+    //    "coordinates",
+    //    "type"
+    //  ],
+    //  "title": "Anchor"
+    //}
+  }
+}

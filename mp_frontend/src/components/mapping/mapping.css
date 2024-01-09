@@ -1,0 +1,85 @@
+.mapping {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.mapping-internal-map-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: inherit;
+  height: 56px;
+  align-items: center;
+  background: #f2f2f2;
+  gap: 2rem;
+}
+
+.mapping-internal-map-container-db {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: inherit;
+  height: 56px;
+  align-items: center;
+  background: rgb(151, 251, 151);
+  gap: 2rem;
+}
+
+.mapping select {
+  display: flex;
+  border-style: none;
+  justify-content: center;
+}
+
+.mapping-origin,
+.mapping-originexternalid,
+.mapping-internalidlist {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  height: calc(100% - 20px);
+}
+
+.mapping-deleteicon{
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.mapping-saveicon{
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.mapping-origin select,
+.mapping-originexternalid input[type="text"],
+.mapping-internalidlist select {
+  background-color: rgb(111, 181, 139, .3);
+  color: #212020;
+  font-size: 13px;
+  font-weight: bold;
+  width: 100%;
+  border-style: none;
+  text-align: center
+}
+
+.mapping-internalidlist option,
+.mapping-origin option{
+  background-color: #9ce0b7;
+  color: #212020;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.mapping-originexternalid {
+  margin-right: -25px;
+}
+
+.mapping-internalidlist {
+  margin-left: 10px;
+}

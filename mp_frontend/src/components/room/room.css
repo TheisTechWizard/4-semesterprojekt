@@ -1,0 +1,22 @@
+/* css for the room component */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700;800&display=swap");
+
+.roombox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 15%;
+  background-color: #2a844e;
+  border-radius: 15px;
+}
+
+.roombox p {
+  display: flex;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+  height: 100%;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+}

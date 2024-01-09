@@ -1,0 +1,22 @@
+.header-text {
+    position: flex;
+    margin-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: var(--font-family);
+}
+
+.header-text h1 {
+    color: #555559;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+}
+
+.header-text p {
+    color: #555559;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}

@@ -1,0 +1,9 @@
+[
+    {
+        "Sensor": "availability"
+    },
+
+    {
+        "Sensor": "occupancy"
+    }
+]

@@ -1,0 +1,38 @@
+.lownavbar {
+    background-color: #FFF;
+    width: auto;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-shadow: 0 8px 6px -10px grey;
+    -moz-box-shadow: 0 8px 6px -10px grey;
+    box-shadow: 0 8px 6px -6px grey;
+}
+
+.lownavbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.lownavbar-links-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.lownavbar-links-container p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+.lownavbar-links-container a {
+    color: #4375D4;
+    text-decoration: none;
+}

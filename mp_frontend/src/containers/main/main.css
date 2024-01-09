@@ -1,0 +1,50 @@
+.overflow {
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+.main-container {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: 50rem;
+  gap: 4rem;
+
+}
+
+.main-mapcontainer h1{
+  color: #555559;
+  font-family: var(--font-family);
+  font-weight: 600;
+}
+
+.main-mapbox {
+  width: 100%;
+}
+
+.main-mapbox h1 {
+  color: #555559;
+  font-family: var(--font-family);
+  font-weight: 600;
+}
+
+.main-mapcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main-roombox {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-message {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 22px;
+  font-weight: bold;
+}
